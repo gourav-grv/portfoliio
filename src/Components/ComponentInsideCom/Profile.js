@@ -3,7 +3,7 @@ import "../CssOfComponents/Profile.css";
 
 const Profile = () => {
   return (
-    <div className="profile__main__div">
+    <div className="profile__main__div" style={{"height":"100%"}}>
       <div>
         <meta httpEquiv="content-type" content="text/html;charset=UTF-8" />
         <meta charSet="utf-8" />

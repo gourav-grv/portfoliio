@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="app">
-      <div style={{display: "flex"}}>
+      <div style={{display: "flex" , height: "100%"}}>
         <Sidebar className="sidebar" />
         <RouterComonent className="route" />
       </div>

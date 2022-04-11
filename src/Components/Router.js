@@ -8,15 +8,17 @@ import Education from "./ComponentInsideCom/Education"
 
 const Router = () => {
   return (
-    <>
+    <div>
       <Switch>
         <Route exact path="/" component={Profile} />
         <Route exact path="/ComponentInsideCom/Certificate" component={Certificate} />
         <Route exact path="/ComponentInsideCom/Projects" component={Projects} />
         <Route exact path="/ComponentInsideCom/ContactUs" component={ContactUs} />
-        <Route exact path="/ComponentInsideCom/Education" component={Education}/>
+        <Route exact path="/ComponentInsideCom/Education" component={Education} />
       </Switch>
-    </>
+
+    </div>
+
   );
 };
 export default Router;
