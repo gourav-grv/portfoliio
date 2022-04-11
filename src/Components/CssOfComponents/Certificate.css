@@ -1,0 +1,31 @@
+.Certificate__main__div {
+  background-color: rgb(184, 181, 181);
+  height: 755px !important;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 755px;
+  padding: 1%;
+}
+.image_inside_carousel {
+  height: 450px !important;
+  max-height: 450px !important;
+  filter: brightness(95%)
+}
+.carousel_div_one {
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+  margin: auto;
+}
+.card_div_one {
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+.carousel-control-prev-icon{
+    color: black !important;
+}

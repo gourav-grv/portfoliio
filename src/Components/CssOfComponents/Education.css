@@ -1,0 +1,8 @@
+.Education__main__div{
+
+    height: 755px !important;
+    width: 100% !important;
+    overflow-y: auto;
+    max-height: 755px;
+    padding: 8%;
+}

@@ -1,0 +1,51 @@
+.Projects__main__div {
+  background-color: rgb(184, 181, 181);
+  height: 755px !important;
+  width: 100% !important;
+  overflow-y: auto;
+  max-height: 755px;
+  padding: 10px;
+}
+.project_render {
+  overflow-y: auto;
+}
+.project_text{
+  width: 60%;
+}
+.project_img{
+  width: 40%;
+}
+.raktdaan_project_img{
+  width: 40%;
+}
+.raktdaan_img{
+  height: 500px;
+  width: 100%;
+}
+.employee_img{
+  height: 300px;
+  width: 100%;
+}
+.project_card{
+  width: 100%;
+}
+.project_detail{
+  width: 100%;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+}
+.project_heading{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.project_technology{
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.pie_chart{
+  height: 200px;
+  display: flex;
+  margin-top: 50px;
+}
